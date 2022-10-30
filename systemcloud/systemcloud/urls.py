@@ -21,6 +21,8 @@ from systemyun import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('systemyun.urls')),
+    path('query/',views.query),
+    
     #path(r'db_handle', views.db_handle),
     #path(r'login', views.login),
     #path(r'del_db', views.del_db),
