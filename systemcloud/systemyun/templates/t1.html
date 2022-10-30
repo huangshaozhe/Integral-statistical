@@ -9,7 +9,7 @@
     <table border="1">
         <tr>
             <th>用户名</th>
-            <th>密码</th>
+            <th>积分</th>
         </tr>
         {% for item in li %}
         <tr>
@@ -18,10 +18,5 @@
          </tr>
         {% endfor %}   
     </table>
-    <form action="/db_handle" method="post">
-         <p><input name="name" /></p>
-         <p><input name="password" /></p>
-         <p><input type="submit" value="submit" /></p>
-     </form>
 </body>
 </html>
