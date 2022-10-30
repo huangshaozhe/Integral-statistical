@@ -10,5 +10,5 @@ def hello(request):
     #return render(request,'dddd.html')
 
 def query(request):
-    user_list_obj = models.inger.objects.all()
+    user_list_obj = models.integral.objects.all()
     return render(request, 't1.html', {'li': user_list_obj})
