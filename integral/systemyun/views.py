@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from datetime import datetime,timedelta
 from django.http import HttpResponse
-import request
+import requests
 
 # Create your views here.
 def hello(request):
